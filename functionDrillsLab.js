@@ -215,10 +215,14 @@ stringConverter(sampleString);
 
 ////////////////// PROBLEM 12 ////////////////////
 /*
-  Write a function called emailCheck that takes in
-  one parameter - email.
-  Inside the function, convert the email param into 
-  a string and trim off any excess whitespace.
+  Write a function called
+  what do we call the function: emailCheckthat takes in
+
+  one parameter - (email).
+  Inside the function,
+  convert the email param into 
+  a string
+  trim off any excess whitespace.
   Check to make sure the email contains an '@' symbol.
   If it does, return 'email verified' and if doesn't, 
   return 'must provide a valid email address'
@@ -227,6 +231,7 @@ stringConverter(sampleString);
 //CODE HERE
 
 function emailCheck(email){
+  email = String(email);
   email = email.trim();
   for (let i = 0; i < email.length; i++){
     if (email[i] === '@') {
@@ -306,9 +311,17 @@ function pond() {
 }
 
 /*
-  There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck.
+  There are 4 variables above:
+  duck,
+  rubberDuck,
+  sailorDuck,
+  realDuck
   All within different scopes.
-  Given the functions and variables above, edit the arrays below to contain only the appropriate variable names (as strings).
+  Given the functions and variables above,
+  edit the arrays
+  below to
+  contain only the appropriate variable names
+  (as strings).
 */
 
 //This array should contain the variable names (as strings) accessible in the global scope.
